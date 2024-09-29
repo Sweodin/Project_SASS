@@ -1,0 +1,40 @@
+$hover: #4a4ff2;
+
+.nav_Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1109px;
+  width: 100%;
+  min-height: 23px;
+  margin: auto;
+  margin-top: 61px;
+
+  &_Logo {
+    max-width: 90px;
+    width: 100%;
+    min-height: 19px;
+  }
+  .nav_List {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    .nav_Li {
+      margin-left: 29px;
+
+      .nav_Link {
+        text-decoration: none;
+        color: #111111;
+        font-weight: bold;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+          color: $hover;
+        }
+      }
+    }
+  }
+}

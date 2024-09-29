@@ -1,0 +1,33 @@
+/*----- variables & functions -----*/
+
+/*----- base & layout -----*/
+
+/*----- colors -----*/
+@use "_colors";
+/*----- components (button, card, navbar etc) -----*/
+
+/*----- utilities (margin, padding, opacity, etc) -----*/
+
+@use "_font";
+@use "_header";
+@use "_hero";
+@use "_project";
+
+body {
+  font-family: font.$font;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: colors.$li_Color;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: colors.$hover;
+}
