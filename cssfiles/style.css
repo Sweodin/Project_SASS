@@ -1,18 +1,13 @@
-/*----- variables & functions -----*/
-/*----- base & layout -----*/
-/*----- colors -----*/
-/*----- components (button, card, navbar etc) -----*/
-/*----- utilities (margin, padding, opacity, etc) -----*/
 .nav_Container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 1109px;
   width: 100%;
   min-height: 23px;
@@ -29,11 +24,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style: none;
 }
 .nav_Container .nav_List .nav_Li {
@@ -50,23 +45,19 @@
 .nav_Container .nav_List .nav_Li .nav_Link:hover {
   color: #4a4ff2;
 }
-
 body {
   font-family: "Mulish", system-ui;
 }
-
 h2 {
   font-size: 28px;
   font-weight: bold;
 }
-
 a {
   text-decoration: none;
   color: #111111;
   -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
-
 a:hover {
   color: #4a4ff2;
 }

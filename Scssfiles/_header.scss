@@ -1,4 +1,4 @@
-$hover: #4a4ff2;
+@use "variables";
 
 .nav_Container {
   display: flex;
@@ -21,18 +21,18 @@ $hover: #4a4ff2;
     align-items: center;
     list-style: none;
 
-    .nav_Li {
+    &_Li {
       margin-left: 29px;
 
-      .nav_Link {
+      &_Link {
         text-decoration: none;
-        color: #111111;
+        color: $colors;
         font-weight: bold;
         font-size: 18px;
         transition: color 0.3s ease-in-out;
 
         &:hover {
-          color: $hover;
+          color: $colors;
         }
       }
     }

@@ -1,20 +1,20 @@
-/*----- variables & functions -----*/
-
-/*----- base & layout -----*/
-
-/*----- colors -----*/
-@use "_colors";
-/*----- components (button, card, navbar etc) -----*/
-
-/*----- utilities (margin, padding, opacity, etc) -----*/
-
+/*----- variables -----*/
+@use "_variables";
+/*----- Fonts -----*/
 @use "_font";
-@use "_header";
-@use "_hero";
-@use "_project";
+/*----- Hero section -----*/
+@import "_hero";
+/*----- Header section -----*/
+@import "_header";
+/*----- Project section -----*/
+@import "_project";
 
 body {
-  font-family: font.$font;
+  font-family: font.$main-Font;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 60px;
 }
 
 h2 {
@@ -22,12 +22,28 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: regular;
+  color: colors.$p-color;
+}
+
 a {
   text-decoration: none;
-  color: colors.$li_Color;
+  color: colors.$Color;
   transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-  color: colors.$hover;
+  color: $colors;
 }

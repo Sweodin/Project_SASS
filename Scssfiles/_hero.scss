@@ -1,8 +1,39 @@
-@use "_colors";
+@use "_variables";
 
+.hero_Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1109px;
+  width: 100%;
+  min-height: 251px;
+  margin: auto;
+  position: relative;
 
+  &-Text {
+    max-width: 635px;
+    width: 100%;
+    min-height: 251px;
+    position: relative;
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: slide-in-to-right 1s ease-out forwards;
 
+    &-Title {
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+      font-size: 22px;
+      color: colors.$txt-hero;
+    }
 
+    &-Content {
+      font-size: 40px;
+      line-height: 60px;
 
-
-
+      span {
+        color: colors.$text_Hero;
+      }
+    }
+  }
+}

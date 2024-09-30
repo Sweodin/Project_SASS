@@ -1,0 +1,27 @@
+/*----- Theme colors -----*/
+
+$li_Color: #111111;
+$text_Hero: #4a4ff2;
+$hover: #4a4ff2;
+$p_Color: #111111;
+
+/*----- Color palette -----*/
+
+$colors: (
+  "li_color": $li_Color,
+  "text_Hero": $text_Hero,
+  "hover": $hover,
+  "p_Color": $p_Color,
+  "black": #000000,
+  "grey": #d8d8d8,
+  "white": #ffffff,
+  "lightGrey": #979797,
+);
+
+/*----- font sizes -----*/
+
+$base_Font-Size: 18px;
+$font_Size-Sm: $base-font-size 16px;
+$font_Size-Lg: $base-font-size 20px;
+$font_Size-Xl: $base-font-size 22px;
+$font_Size-Xxl: $base-font-size 40px;
