@@ -1,4 +1,4 @@
-@use "variables";
+@use "_colors";
 
 .nav_Container {
   display: flex;
@@ -8,7 +8,7 @@
   width: 100%;
   min-height: 23px;
   margin: auto;
-  margin-top: 61px;
+  top: 61px;
 
   &_Logo {
     max-width: 90px;
@@ -21,18 +21,18 @@
     align-items: center;
     list-style: none;
 
-    &_Li {
+    .nav_Li {
       margin-left: 29px;
 
-      &_Link {
+      .nav_Link {
         text-decoration: none;
-        color: $colors;
+        color: colors.$li_Color;
         font-weight: bold;
         font-size: 18px;
         transition: color 0.3s ease-in-out;
 
         &:hover {
-          color: $colors;
+          color: colors.$hover;
         }
       }
     }

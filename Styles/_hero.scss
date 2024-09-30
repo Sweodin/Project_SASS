@@ -1,39 +1,43 @@
-@use "_variables";
+@use "colors";
 
 .hero_Container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   max-width: 1109px;
   width: 100%;
   min-height: 251px;
   margin: auto;
   position: relative;
 
-  &-Text {
+  &-text {
     max-width: 635px;
     width: 100%;
     min-height: 251px;
     position: relative;
     transform: translateX(-100%);
-    opacity: 0;
-    animation: slide-in-to-right 1s ease-out forwards;
+    /* opacity: 0;
+        animation: slide-in-to-right 1s ease-out forwards; */
+  }
 
-    &-Title {
-      margin-top: 6rem;
-      margin-bottom: 2rem;
-      font-weight: bold;
-      font-size: 22px;
-      color: colors.$txt-hero;
-    }
+  &-Title {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 22px;
+    color: colors.$text_Hero;
+  }
+  &-Content {
+    font-size: 40px;
+    line-height: 60px;
+    max-width: 650px;
+    word-wrap: break-word;
+  }
+  .hero_Quote {
+    margin-bottom: 1.5rem;
+  }
 
-    &-Content {
-      font-size: 40px;
-      line-height: 60px;
-
-      span {
-        color: colors.$text_Hero;
-      }
-    }
+  span {
+    color: colors.$text_Hero;
   }
 }

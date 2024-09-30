@@ -1,16 +1,19 @@
-/*----- variables -----*/
-@use "_variables";
 /*----- Fonts -----*/
 @use "_font";
-/*----- Hero section -----*/
-@import "_hero";
+/*----- variables -----*/
+@use "_colors";
 /*----- Header section -----*/
-@import "_header";
+@import "header";
+/*----- Hero section -----*/
+@import "hero";
 /*----- Project section -----*/
-@import "_project";
+@import "project";
+/*----- Footer section -----*/
+@import "footer";
 
+/*----- Global styles -----*/
 body {
-  font-family: font.$main-Font;
+  font-family: font.$main_Font;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,15 +38,15 @@ h4 {
 p {
   font-size: 16px;
   font-weight: regular;
-  color: colors.$p-color;
+  color: colors.$p_Color;
 }
 
 a {
   text-decoration: none;
-  color: colors.$Color;
+  color: colors.$li_Color;
   transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-  color: $colors;
+  color: colors.$hover;
 }
