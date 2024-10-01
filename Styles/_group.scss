@@ -1,0 +1,35 @@
+.service_container {
+  display: flex;
+  max-width: 1079px;
+  width: 100%;
+  min-height: 106px;
+  margin: auto;
+
+  &-info {
+    max-width: 635px;
+    width: 100%;
+    min-height: 106px;
+  }
+
+  .service-text {
+    line-height: 38px;
+  }
+
+  .main_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+
+    &-left,
+    &-right {
+      list-style: none;
+      font-size: 18px;
+      font-weight: normal;
+      opacity: 0.6;
+    }
+    &-right {
+      margin-left: 70px;
+    }
+  }
+}

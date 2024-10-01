@@ -10,10 +10,15 @@
 @import "project";
 /*----- Footer section -----*/
 @import "footer";
+/*----- Group section -----*/
+@import "group";
+/*----- Awards section -----*/
+@import "awards";
 
 /*----- Global styles -----*/
+
 body {
-  font-family: font.$main_Font;
+  font-family: font.$main-font;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,13 +42,13 @@ h4 {
 
 p {
   font-size: 16px;
-  font-weight: regular;
-  color: colors.$p_Color;
+  font-weight: normal;
+  color: colors.$p-color;
 }
 
 a {
   text-decoration: none;
-  color: colors.$li_Color;
+  color: colors.$li-color;
   transition: color 0.3s ease-in-out;
 }
 
