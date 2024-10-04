@@ -1,0 +1,53 @@
+@use "_colors";
+
+a {
+  text-decoration: none;
+  color: colors.$li-color;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: colors.$hover;
+}
+
+.footer_container {
+  max-width: 1110px;
+  width: 100%;
+  min-height: 23px;
+  margin: auto;
+  margin-top: 114px;
+  margin-bottom: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+  margin-right: 95px;
+  gap: 30px;
+}
+
+.footer_item {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.footer_icons i {
+  font-size: 18px;
+  cursor: pointer;
+}
