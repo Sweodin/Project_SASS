@@ -1,0 +1,45 @@
+@use "_colors";
+@use "_font";
+
+.hero_container {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 100px;
+
+  &-text {
+    max-width: 635px;
+    width: 100%;
+    margin-right: 140px;
+  }
+  &-text-title {
+    max-width: 475px;
+    width: 100%;
+    color: colors.$h1-color;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 55px;
+  }
+  &-info {
+    font-size: 16px;
+    line-height: 26px;
+    color: colors.$p-color;
+    margin-right: 125px;
+  }
+  &-aboutus {
+    max-width: 335px;
+    width: 100%;
+    min-height: 343px;
+  }
+  .about {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid #979797;
+    &-category {
+      opacity: 0.6;
+    }
+  }
+}
