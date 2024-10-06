@@ -1,0 +1,24 @@
+@use "_colors";
+@use "_font";
+
+.main-container {
+  max-width: 1110px;
+  width: 100%;
+  min-height: 1243px;
+  margin: auto;
+  margin-top: 61px;
+
+  &-text {
+    max-width: 1109px;
+    width: 100%;
+    min-height: 93;
+    line-height: 26px;
+    margin: 45px;
+    color: colors.$p-color;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
