@@ -1,6 +1,6 @@
 @use "_colors";
 
-.hero_Container {
+.hero_container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -20,20 +20,20 @@
     animation: slide-in-to-right 1s ease-out forwards;
   }
 
-  &-Title {
+  &-title {
     margin-top: 6rem;
     margin-bottom: 2rem;
     font-weight: bold;
     font-size: 22px;
     color: colors.$text-hero;
   }
-  &-Content {
+  &-content {
     font-size: 40px;
     line-height: 60px;
     max-width: 650px;
     word-wrap: break-word;
   }
-  .hero_Quote {
+  .hero_quote {
     margin-bottom: 1.5rem;
   }
 

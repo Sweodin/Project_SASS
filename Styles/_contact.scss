@@ -4,10 +4,8 @@
 @use "_colors";
 /*----- Header section -----*/
 @import "_header";
-/*----- Project details section -----*/
-@import "_project-details";
 /*----- Hero project section -----*/
-@import "_hero-project";
+@import "_hero-contact";
 /*----- Footer section -----*/
 @import "_footer";
 
@@ -19,9 +17,9 @@ body {
   padding-top: 60px;
 }
 
-h2 {
-  font-size: 28px;
-  font-weight: bold;
+h1 {
+  font-size: 40px;
+  line-height: 55px;
 }
 
 h3 {

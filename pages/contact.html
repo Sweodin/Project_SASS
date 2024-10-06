@@ -12,8 +12,85 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="../Styles/normalize.css" />
-    <link rel="stylesheet" href="../Styles/style.css" />
+    <link rel="stylesheet" href="../Styles/_contact.css" />
     <title>Contact</title>
   </head>
-  <body></body>
+  <body>
+    <!----- Navigation Header ----->
+
+    <header>
+      <nav class="nav_container">
+        <a href="../index.html"
+          ><img src="../img/Logo.svg" class="nav_logo" alt="Logo"
+        /></a>
+        <ul class="nav_list">
+          <li class="nav_li">
+            <a class="nav_link" href="../pages/project.html">Projects</a>
+          </li>
+          <li class="nav_li">
+            <a class="nav_link" href="../pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!----- Main section ----->
+
+    <section class="main_container">
+      <section class="main_container-text">
+        <h1 class="main_container-text-title">
+          Full set of great features to make your product fresh
+        </h1>
+        <p class="main_container-text-content">
+          Our favorite brands are our friends! We help them to achieve their
+          goals, they help us to stay sharp.
+        </p>
+      </section>
+      <section class="main_container-contact-form">
+        <form class="form" action="">
+          <label for="name" class="label">Name</label>
+          <input type="text" id="name" placeholder="" required />
+
+          <label for="email" class="label">Email</label>
+          <input type="email" id="email" placeholder="" required />
+          <label for="message" class="label">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder=""
+            required></textarea>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </section>
+    </section>
+    <section class="map">
+      <img src="../img/Map.png" class="map" alt="Map" />
+    </section>
+
+    <!----- Footer section ----->
+
+    <footer class="footer_container">
+      <a href="../index.html"
+        ><img src="../img/Logo.svg" class="footer_logo" alt="Logo"
+      /></a>
+
+      <ul class="footer_links">
+        <li class="footer_item">
+          <a href="../pages/project.html" class="footer_link"
+            ><h4>Projects</h4></a
+          >
+        </li>
+        <li class="footer_item">
+          <a href="../pages/contact.html" class="footer_link"
+            ><h4>Contact</h4></a
+          >
+        </li>
+      </ul>
+      <div class="footer_icons">
+        <a href="#"><i class="fa-solid fa-basketball"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+  </body>
 </html>

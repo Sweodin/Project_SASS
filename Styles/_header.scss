@@ -1,6 +1,6 @@
 @use "_colors";
 
-.nav_Container {
+.nav_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,21 +10,21 @@
   margin: auto;
   top: 61px;
 
-  &_Logo {
+  &_logo {
     max-width: 90px;
     width: 100%;
     min-height: 19px;
   }
-  .nav_List {
+  .nav_list {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
 
-    .nav_Li {
+    .nav_li {
       margin-left: 29px;
 
-      .nav_Link {
+      .nav_link {
         text-decoration: none;
         color: colors.$li-color;
         font-weight: bold;
